@@ -1,0 +1,422 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title>Router-Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="/assets/pages/index.html" class="nav__logo">Brand Name </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__toggle-menu"></i>
+            <i class="ri-close-line nav__toggle-close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="/assets/pages/index.html" class="nav__link">Home</a>
+            </li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                <a>Products </a
+                ><i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-flashlight-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Top Hardware</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Logo Raptor</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Aegis Smart Security System</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >HyperLink Gigabit Router</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-heart-3-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Popular Products </span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >NetBoost Pro Mesh Wi-Fi System</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">SmartHub 360</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Omega Residential Wireless Modem</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-book-mark-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Use Case</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Esports/Games</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Streming Unlimated</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Travel/Outside</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Home 5G-Conectivity</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-file-paper-2-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Extender</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Extender 1</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Extender 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--=============== DROPDOWN 2 ===============-->
+            <li>
+              <a href="/assets/pages/services.html" class="nav__link"
+                >Services</a
+              >
+            </li>
+
+            <li>
+              <a href="/assets/pages/pricing.html" class="nav__link">Pricing</a>
+            </li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Company <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-community-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">About us</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a
+                          href="/assets/pages/about.html"
+                          class="dropdown__link"
+                          >About us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./support.html" class="dropdown__link"
+                          >Support</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-shield-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Safety and quality</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Cookie settings</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Privacy Policy</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
+
+    <section id="services-1628">
+      <div class="cs-container">
+        <div class="cs-content">
+          <div class="cs-flex">
+            <span class="cs-topper">Our Services</span>
+            <h2 class="cs-title">
+              Grow Your Business with Our New Bold Agency
+            </h2>
+          </div>
+          <p class="cs-text">
+            Aqestic recusandae laudantium optio amet a quisquam saepe aliquid,
+            voluptate praesentium dicta fuga dolor error perspiciatis voluptatem
+            eum cupiditate totam reiciendis quam minus inventore sint rem
+            impedit esse quasi Tenetur sed reprehenderit earum a magni aliquid
+            blanditiis dolores, veritatis soluta autem beatae officia expedita
+            ipsum rerum doloribus sit provident delectus.
+          </p>
+        </div>
+        <ul class="cs-card-group">
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg
+                  "
+                />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg
+                  "
+                />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg"
+                  alt="room"
+                  width="413"
+                  height="420"
+                />
+              </picture>
+              <h3 class="cs-h3">Process Safety & Risk Management</h3>
+              <p class="cs-item-text">
+                We provide some of the finest quality, most reliable, and cost
+                effective services and solutions.
+              </p>
+              <span class="cs-fake-link">
+                Get Started
+                <img
+                  class="cs-icon"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg
+                  "
+                />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg
+                  "
+                />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg"
+                  alt="room"
+                  width="413"
+                  height="420"
+                />
+              </picture>
+              <h3 class="cs-h3">Occupational Safety & Health</h3>
+              <p class="cs-item-text">
+                We provide some of the finest quality, most reliable, and cost
+                effective services and solutions.
+              </p>
+              <span class="cs-fake-link">
+                Get Started
+                <img
+                  class="cs-icon"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg
+                  "
+                />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg
+                  "
+                />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg"
+                  alt="room"
+                  width="413"
+                  height="420"
+                />
+              </picture>
+              <h3 class="cs-h3">Security Assessment and Planning</h3>
+              <p class="cs-item-text">
+                We provide some of the finest quality, most reliable, and cost
+                effective services and solutions.
+              </p>
+              <span class="cs-fake-link">
+                Get Started
+                <img
+                  class="cs-icon"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="cs-item">
+            <a href="" class="cs-link">
+              <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg
+                  "
+                />
+                <!--Tablet and above Image-->
+                <source
+                  media="(min-width: 601px)"
+                  srcset="
+                    https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg
+                  "
+                />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg"
+                  alt="room"
+                  width="413"
+                  height="420"
+                />
+              </picture>
+              <h3 class="cs-h3">Security Assessment and Planning</h3>
+              <p class="cs-item-text">
+                We provide some of the finest quality, most reliable, and cost
+                effective services and solutions.
+              </p>
+              <span class="cs-fake-link">
+                Get Started
+                <img
+                  class="cs-icon"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
